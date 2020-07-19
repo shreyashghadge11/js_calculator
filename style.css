@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    
+    
+}
+.boty{
+    background-image: linear-gradient(to right,rgba(13, 88, 168, 0.349),rgba(0, 0, 0, 0.363)), url(log_in_scene.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    z-index: ;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 40px;
+     border: black solid 2px;
+    text-align: center;
+    background-color:transparent;
+    border-radius: 20px;
+    color: black;
+    
+}
+.calculate{
+    height: 160px;
+    background-color: #0099ff6e ;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-top: 40px;
+    font-size: 40px;
+    color: black;
+    border: black solid 1px; 
+    
+}
+.calculate div{
+    
+}
+#header{
+    font-size: 22px;
+    float: left;;
+    margin-left: 50px;
+    position: relative;
+    top: -20px;
+}
+#total{
+    float: right;
+    position: relative;
+    top: 40px;
+    
+    margin-right: 10px;
+}
+.btns{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 70px;
+    margin: 4px 0;
+}
+.rows{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.btn{
+    border: black solid 1px;
+    padding: 20px 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin: 2px;
+    border-radius: 20%;
+
+}
+#per{
+    background-color: rgba(255, 255, 255, 0.514);
+}
+.no{
+    background-color: rgba(236, 236, 236, 0.459);
+}
+
+#div{
+    background-color: rgba(255, 68, 0, 0.527);
+}
+#mul{
+    background-color: rgba(31, 6, 253, 0.514);
+}
+#sub
+{
+    background-color: rgba(243, 239, 9, 0.514);
+}
+#add{
+    background-color: rgba(0, 255, 85, 0.562);
+}#answer{
+    background-color: rgba(0, 0, 0, 0.534);
+}
+#decimal{
+    background-color: rgba(253, 0, 0, 0.507);
+}
+.btn:hover,#per:hover{
+    cursor: pointer;
+    background-color: #2d3436;
+    color: white;
+}
+#allcl{
+    background-color: rgba(8, 248, 236, 0.507);
+    
+}
+#cl{
+    background-color: rgba(252, 7, 158, 0.514);
+}
